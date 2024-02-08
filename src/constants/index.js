@@ -82,7 +82,7 @@ const projects = [
     siteName: "Personal Website",
     readMeText:
       "My personal website.I created this website to display my profile,skill and project.",
-    createBy: "React Js,Tailwind",
+    createBy: "React Js,TailwindCss",
     site_url: "https://aungmyatoo2005.github.io/portfolio/",
     repo_url: "https://github.com/AungMyatOo2005/portfolio",
   },
@@ -92,7 +92,7 @@ const projects = [
     siteName: "Metflix (Movie App)",
     readMeText:
       "Movie recommend website.In Website user can search movie and can select movie list by genres.User can add movie to favorite list.User can see each movie of trailer, original website and full cast.",
-    createBy: "React Js,Tailwind,TMDb API",
+    createBy: "React Js,TailwindCss,TMDb API",
     site_url: "https://aungmyatoo2005.github.io/movie-app/",
     repo_url: "https://github.com/AungMyatOo2005/movie-app",
   },
@@ -102,7 +102,7 @@ const projects = [
     siteName: "Daily Blog",
     readMeText:
       'I created this web page by react ,tailwindcss and atc...Firstly,please commend in terminal "npm run dev"Secondly,please commentd in next terminal "npm run json-server". In the website user can register and login.If user ar unauthorized user can\'t reach profile page and he can see only last 8 post ,BTW I was use pagination sir.Authorized user can post,edit and delete  his post and under all comments of his posts.He can comment in other users posts.He can delete and edit his comment (he only can edit),Day Mode and Night Mode for user friendly .Authorize user can reach profile page and he will edit his personal details.User can logout.',
-    createBy: "React Js,Tailwind,Json Server",
+    createBy: "React Js,TailwindCs,Json Server",
     repo_url: "https://github.com/AungMyatOo2005/exchange-app.git",
   },
   {
@@ -111,7 +111,7 @@ const projects = [
     siteName: "Recipes App",
     readMeText:
       "The recipe app.User can search meal and can add to favorite list.User can see how to make what user choice meal and youtube video.",
-    createBy: "HTML,CSS,Js,TheMealDB API",
+    createBy: "React Js,TailwindCss,TheMealDB API",
     site_url: "https://aungmyatoo2005.github.io/the-meal-db/",
     repo_url: "https://github.com/AungMyatOo2005/the-meal-db.git",
   },
@@ -121,7 +121,7 @@ const projects = [
     siteName: "Poke Db",
     readMeText:
       "PokeDb website.All of pokemon contain in pokedb website.User can search pokemon by pokemon name and user can add pokemon to favorite pokemon list.",
-    createBy: "React Js,Tailwind,POKE api",
+    createBy: "React Js,TailwindCss,POKE api",
     site_url: "https://aungmyatoo2005.github.io/pokedb/",
     repo_url: "https://github.com/AungMyatOo2005/pokedb.git",
   },
@@ -131,7 +131,7 @@ const projects = [
     siteName: "Expense Tracker",
     readMeText:
       "Expense Tracker website.In site user can note transactions list and can see total positive value, negative value and total value.After not user can add to history with list name.I code this path by local storage.",
-    createBy: "React Js,Tailwind",
+    createBy: "React Js,TailwindCss",
     site_url: "https://aungmyatoo2005.github.io/expense-tracker/",
     repo_url: "https://github.com/AungMyatOo2005/expense-tracker",
   },
@@ -141,7 +141,7 @@ const projects = [
     siteName: "Exchange App",
     readMeText:
       "Money Exchange Application.User can compare exchange rate from many countries.",
-    createBy: "React Js,Tailwind,ExchangeRate API",
+    createBy: "React Js,TailwindCss,ExchangeRate API",
     site_url: "https://aungmyatoo2005.github.io/exchange-app/",
     repo_url: "https://github.com/AungMyatOo2005/exchange-app.git",
   },
