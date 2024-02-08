@@ -152,15 +152,15 @@ nav .first-ul a:nth-child(4):hover ~ .bar {
 }
 
 .first-about-text {
-  transform: translateX(300px);
-  opacity: 0.2;
-  transition: 0.5s ease-in-out;
+  transform: translateX(200px);
+  opacity: 0;
+  transition: 0.5s ease-in;
 }
 
 .second-about-text {
-  transform: translateX(300px);
+  transform: translateX(200px);
   opacity: 0;
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in;
 }
 
 .skill_card {
@@ -171,11 +171,11 @@ nav .first-ul a:nth-child(4):hover ~ .bar {
 
 .show {
   opacity: 1;
-  transform: translateX(0px);
+  transform: translate(0px);
   scale: 1;
 }
 .lvl {
-  animation: LvlAnimation 0.1s ease-in-out;
+  animation: LvlAnimation 0.1s ease-in;
 }
 @keyframes LvlAnimation {
   0% {
