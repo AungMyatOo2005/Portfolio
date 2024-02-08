@@ -37,12 +37,12 @@ const About = ({ isDarkMode }) => {
           <img
             src={me}
             loading="lazy"
-            className="w-[70%] sm:w-[500px] md:w-[300px] md:h-[300px] rounded-full object-cover z-[1] right_img"
+            className="w-[70%] sm:w-[500px] md:w-[300px] md:h-[300px] rounded-full object-cover right_img z-[10]"
           />
           <div
             className={`${
               isDarkMode ? "text-white" : "text-black"
-            } md:m-0 mt-16 w-fit flex flex-col items-center gap-8 md:max-w-[600px] overflow-hidden`}
+            } md:m-0 mt-16 w-fit flex flex-col items-center gap-8 md:max-w-[600px] overflow-hidden z-[10]`}
           >
             <p className="first-about-text w-full text-justify">
               Hello Everyone! My name is Aung Myat Oo. I'm web developer from

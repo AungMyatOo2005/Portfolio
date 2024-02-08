@@ -24,7 +24,7 @@ const Home = ({ isDarkMode }) => {
   return (
     <section
       id="home"
-      className="w-full min-h-screen flex items-center justify-center"
+      className="w-full min-h-screen flex items-center justify-center overflow-hidden"
     >
       <div className="flex items-center gap-10 md:flex-row flex-col-reverse">
         <div className="flex flex-col items-start md:translate-x-0 sm:translate-x-[-120px]">
