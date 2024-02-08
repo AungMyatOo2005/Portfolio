@@ -46,10 +46,7 @@ const Content = ({ isDarkMode }) => {
             <h4>09942029462</h4>
           </div>
         </a>
-        <a
-          href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWrRttWbtgNKbxfGhjpnMmjwZPJnGkxndHPcqssRsqxnRgPPBtBxPsksKsKhmClWkZPFbbhFL"
-          target="_blank"
-        >
+        <a href="mailto:aungmyatoo2025@gmail.com" target="_blank">
           <div
             className={`flex items-center gap-5 w-full border py-4 px-6 rounded-md cursor-pointer hover:-translate-y-1 transition-all  ${
               isDarkMode
@@ -61,7 +58,7 @@ const Content = ({ isDarkMode }) => {
             <h4>aungmyatoo2025@gmail.com</h4>
           </div>
         </a>
-        <a href="mailto:aungmyatoo2025@gmail.com" target="_blank">
+        <a href="https://maps.app.goo.gl/KB2adSizLfvEJtwK9" target="_blank">
           <div
             className={`flex items-center gap-5 w-full border py-4 px-6 rounded-md cursor-pointer hover:-translate-y-1 transition-all  ${
               isDarkMode
