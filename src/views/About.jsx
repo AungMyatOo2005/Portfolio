@@ -33,7 +33,7 @@ const About = ({ isDarkMode }) => {
             }`}
           ></div>
         </div>
-        <div className="mt-16 ss:mx-6 flex md:flex-row flex-col justify-between gap-5 items-center">
+        <div className="mt-16 ss:mx-6 flex md:flex-row flex-col justify-between gap-5 items-center z-[10]">
           <img
             src={me}
             loading="lazy"
