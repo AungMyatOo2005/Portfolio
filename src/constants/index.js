@@ -16,6 +16,7 @@ import {
   dailyBlog,
   exchangeApp,
   pokedb,
+  videoCall,
 } from "../assets";
 
 const techStacks = [
@@ -147,6 +148,15 @@ const projects = [
   },
   {
     id: 8,
+    posterPath: videoCall,
+    siteName: "Video Call(gp call)",
+    readMeText: "Group call web app like zoom.I create this using zegocloud",
+    createBy: "React Js,ZegoCloud",
+    site_url: "https://aungmyatoo2005.github.io/video_call_app/",
+    repo_url: "https://github.com/AungMyatOo2005/video_call_app/",
+  },
+  {
+    id: 9,
     posterPath: weatherApp,
     siteName: "Weather App",
     readMeText:
