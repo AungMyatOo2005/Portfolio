@@ -61,7 +61,7 @@ const Content = ({ isDarkMode }) => {
             <h4>aungmyatoo2025@gmail.com</h4>
           </div>
         </a>
-        <a href="https://maps.app.goo.gl/GxTF6mAkPNfELMKv5" target="_blank">
+        <a href="mailto:aungmyatoo2025@gmail.com" target="_blank">
           <div
             className={`flex items-center gap-5 w-full border py-4 px-6 rounded-md cursor-pointer hover:-translate-y-1 transition-all  ${
               isDarkMode
