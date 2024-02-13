@@ -4,7 +4,7 @@ import Home from "./views/Home";
 import About from "./views/About";
 import Navbar from "./components/Navbar";
 import Project from "./views/Project";
-import Content from "./views/Content";
+import Contact from "./views/Contact";
 import NavActiveController from "./util/NavActiveController";
 import Intersecting from "./util/Intersecting";
 function App() {
@@ -43,7 +43,7 @@ function App() {
       <Home isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
       <Project isDarkMode={isDarkMode} />
-      <Content isDarkMode={isDarkMode} />
+      <Contact isDarkMode={isDarkMode} />
     </div>
   );
 }

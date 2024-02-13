@@ -33,7 +33,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode, toggle, setToggle }) => {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#project">Project</a>
-        <a href="#content">Content</a>
+        <a href="#contact">Contact</a>
         <div className="bar"></div>
       </ul>
       <div className="flex items-center gap-5">
@@ -103,9 +103,9 @@ const Navbar = ({ isDarkMode, setIsDarkMode, toggle, setToggle }) => {
             onClick={() => {
               setToggle((pre) => !pre);
             }}
-            href="#content"
+            href="#contact"
           >
-            Content
+            Contact
           </a>
         </ul>
         <a

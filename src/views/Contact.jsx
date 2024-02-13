@@ -7,22 +7,22 @@ import {
   darkMail,
   whiteMail,
 } from "../assets";
-const Content = ({ isDarkMode }) => {
+const contact = ({ isDarkMode }) => {
   return (
-    <section id="content" className="min-h-screen py-20 md:px-20 sm:px-16 px-2">
+    <section id="contact" className="min-h-screen py-20 md:px-20 sm:px-16 px-2">
       <h1
         className={` w-full text-center font-semibold font-Poppins text-[26px] ${
           isDarkMode ? "text-white" : "text-black"
         }`}
       >
-        Content Me
+        Contact Me
       </h1>
       <h1
         className={` w-full text-center font-Poppins text-[20px] mt-3 ${
           isDarkMode ? "dark-gradient-text" : "light-gradient-text"
         }`}
       >
-        Get In Tough
+        Get In Touch
       </h1>
       <div
         className={`mx-auto py-10 rounded-md w-full xs:max-w-[400px] px-2 sm:px-5 border mt-16 flex flex-col gap-5 ${
@@ -78,4 +78,4 @@ const Content = ({ isDarkMode }) => {
   );
 };
 
-export default Content;
+export default contact;
