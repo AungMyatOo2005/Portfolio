@@ -6,7 +6,10 @@ import {
   whiteLocation,
   darkMail,
   whiteMail,
+  whiteCv,
+  darkCv,
 } from "../assets";
+import cv from "../assets/AungMyatOo.pdf";
 const contact = ({ isDarkMode }) => {
   return (
     <section id="contact" className="min-h-screen py-20 md:px-20 sm:px-16 px-2">
@@ -71,6 +74,18 @@ const contact = ({ isDarkMode }) => {
               className="w-[30px]"
             />
             My Location
+          </div>
+        </a>
+        <a href={cv} download={cv}>
+          <div
+            className={`flex items-center gap-5 w-full border py-4 px-6 rounded-md cursor-pointer hover:-translate-y-1 transition-all ${
+              isDarkMode
+                ? "border-[#aa923b] hover:bg-[#ffdd6127]"
+                : "border-[#0074cc] hover:bg-[#5cb8ff59]"
+            }`}
+          >
+            <img src={isDarkMode ? whiteCv : darkCv} className="w-[30px]" />
+            Get My Cv
           </div>
         </a>
       </div>

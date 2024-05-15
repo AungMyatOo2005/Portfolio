@@ -22,6 +22,8 @@ import darkMail from "./dark-mail.png";
 import whiteLocation from "./white-location.png";
 import darkLocation from "./dark-location.png";
 import videoCall from "./video_call.png";
+import whiteCv from "./white-cv.png";
+import darkCv from "./dark-cv.png";
 export {
   html,
   css,
@@ -47,4 +49,6 @@ export {
   whiteLocation,
   darkLocation,
   videoCall,
+  whiteCv,
+  darkCv,
 };
