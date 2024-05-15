@@ -46,8 +46,7 @@ const About = ({ isDarkMode }) => {
           >
             <p className="first-about-text w-full text-justify">
               Hello Everyone! My name is Aung Myat Oo. I'm web developer from
-              Myanmar,Yangon. I have 7 month experience in front-end web
-              development. I really enjoy what I do right now,in my opinion,
+              Myanmar,Yangon. I really enjoy what I do right now,in my opinion,
               creating programs is not just a job, but also and art that has
               aesthetic value.
             </p>
